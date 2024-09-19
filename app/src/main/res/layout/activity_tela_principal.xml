@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TelaPrincipal"
+    android:background="@color/navy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <Button
+            android:id="@+id/bt_deslogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deslogar" />
+
+        <Button
+            android:id="@+id/bt_lista_compras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compras"/>
+
+
+        <!-- Campo para o nome -->
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+            android:inputType="textPersonName" />
+
+        <!-- Campo para o sobrenome -->
+        <EditText
+            android:id="@+id/editSobrenome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sobrenome"
+            android:inputType="textPersonName" />
+
+        <!-- Campo para a idade -->
+        <EditText
+            android:id="@+id/editIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Idade"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btGravarDadosDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gravar" />
+
+        <!-- Título da seção de ações adicionais -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ações do Usuário"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Botão para ler os dados -->
+        <Button
+            android:id="@+id/btLerDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ler Dados" />
+
+        <TextView
+            android:id="@+id/tvDadosLidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nenhum dado lido"
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btExcluirUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excluir Usuário" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Tela Principal"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</LinearLayout>

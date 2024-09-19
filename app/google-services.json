@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240792616548",
+    "project_id": "tela-de-cadastro-57904",
+    "storage_bucket": "tela-de-cadastro-57904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240792616548:android:43c7514ee7d9244573a971",
+        "android_client_info": {
+          "package_name": "com.example.teladecadastro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKcQrSXwNV4sMOrCln_5FcgyftGUaeXR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
